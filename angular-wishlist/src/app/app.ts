@@ -12,3 +12,4 @@ import { DestinoViajeComponent } from './destino-viaje/destino-viaje';
 export class App {
   protected readonly title = signal('angular-wishlist-simple');
 }
+  

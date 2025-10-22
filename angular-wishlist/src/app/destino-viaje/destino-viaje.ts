@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-destino-viaje',
@@ -6,4 +6,13 @@ import { Component } from '@angular/core';
   templateUrl: './destino-viaje.html',
   styleUrls: ['./destino-viaje.css']
 })
-export class DestinoViajeComponent {}
+export class DestinoViajeComponent implements OnInit{
+  nombre: string;
+  constructor() {
+    this.nombre = 'Nombre por defecto'
+  }
+  ngOnInit(): void {
+    
+  }
+}
+
